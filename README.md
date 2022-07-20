@@ -1,4 +1,4 @@
-# Kitty Theme Changing Script
+# Kitty Theme Switcher
 
 This is shell script to change **Kitty Terminal** theme according to the system theme state E.g light and dark.
 
@@ -23,8 +23,8 @@ Only for DE that use gtk3, tested in Gnome 42.
 - Install shc using your system's package manager.
 - Compile this script by running:
   > shc -f main.sh
-- Rename main.sh.x to your liking, E.g kat (kitty auto theme)
-  > mv main.sh.x kat
+- Rename main.sh.x to your liking, E.g kts (kitty theme switcher)
+  > mv main.sh.x kts
 - There you have it, a binary that can be symlinked to $HOME/.local/bin/
 
 ##### Future
