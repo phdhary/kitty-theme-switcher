@@ -25,8 +25,8 @@ trim_kitty_theme ()
 
 set_kitty_theme ()
 {
-    kitty +kitten themes --reload-in=all $1;
-    echo "Theme changed to $1!"
+    kitty +kitten themes --reload-in=all $@;
+    echo "Theme changed to $@!"
 }
 
 change_theme(){
